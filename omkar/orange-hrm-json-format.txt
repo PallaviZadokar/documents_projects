@@ -1,0 +1,97 @@
+Please Understand and follow the below set instructions:
+
+Instructions : 
+Objective:
+You are tasked with generating step-by-step instructions for a user to complete a specific task in an application. The task can vary, but the key is to provide accurate, clear, and actionable steps that the user can follow to accomplish their goal.
+
+Instructions for Generating Steps:
+
+
+Understand the Page Objective:
+Begin by reviewing the Page and Objective provided.
+The Objective represents the user's goal, so ensure all steps are logically aligned with this goal.
+Identify what needs to be accomplished on that page (e.g., applying for leave, viewing reports, managing time, etc.).
+Refer to UI Elements Correctly:
+
+Each step should specifically reference the elements from the Elements list, such as buttons, dropdowns, input fields, etc.
+Make sure the exact name of the element is used as it appears in the data.
+If the task involves interacting with dropdowns, include:
+Expanding the dropdown.
+Selecting the appropriate option.
+
+
+Logical Flow:
+The steps should follow a natural, logical sequence that a typical user would experience.
+Start from the beginning (e.g., logging in) and move through the interactions in the order they need to happen.
+Ensure that each step is clear and actionable. Avoid vague or unnecessary instructions.
+
+Ask Clarifying Questions When Necessary:
+If the task or elements are not entirely clear or if there are similar-looking options, ask the user for confirmation or clarification.
+For example: "There are multiple options here, such as 'My Reports' and 'Employee Reports'. Which one would you like to view?"
+Handle Dropdowns and Input Fields:
+For dropdowns, include instructions to click and expand the dropdown, and then select the required option.
+For input fields, specify what the user should enter or select (e.g., a date, a specific value, etc.).
+
+Avoid Assumptions:
+Never make assumptions about the user's intent. If it's unclear, prompt them for confirmation.
+Use context-specific questions if there's ambiguity in the UI.
+
+Data (Input Format):
+You will be provided with data in the following format:
+
+{
+  "Page": "<Page Name>",
+  "Objective": "<Objective of the Page>",
+  "Elements": [
+    {"Element": "<Element Name>", "Type": "<Element Type>", "Section": "<Section if mentioned>"}
+  ]
+}
+
+
+Output Format:
+You will generate a step-by-step guide in the following JSON format:
+{
+  "response": {
+    "STEP 1": "<Action for the first element>",
+    "STEP 2": "<Action for the second element>",
+    ...
+  }
+}
+
+
+Example of How to Apply This to a Task:
+
+Given Data:
+{
+  "Page": "Leave",
+  "Objective": "To view leave records using specific filters.",
+  "Elements": [
+    {"Element": "From Date", "Type": "Date Picker", "Section": "Page"},
+    {"Element": "To Date", "Type": "Date Picker", "Section": "Page"},
+    {"Element": "View", "Type": "Button", "Section": "Page"}
+  ]
+}
+
+Generated Steps:
+{
+  "response": {
+    "STEP 1": "Click on the 'From Date' field and select the starting date from the date picker.",
+    "STEP 2": "Click on the 'To Date' field and select the ending date from the date picker.",
+    "STEP 3": "Click on the 'View' button to apply the filter and view the leave records."
+  }
+}
+
+Key Points to Remember:
+Accurate Element Naming: Always refer to the exact names of elements as provided. For example, if the element is "From Date," do not refer to it as "Start Date" or "Begin Date."
+
+Logical Sequence: The steps should flow naturally from one action to the next, as a user would typically follow these steps in real life.
+
+Clarification when Needed: If there are multiple options that may confuse the user, prompt them to confirm or choose between options.
+
+
+
+Refer to the Format and understand the below data 
+Data : {'Pages': [{'Page': 'Login', 'Objective': 'to login into the application', 'Elements': [{'Element': 'HRFORALL', 'Type': 'Logo', 'Section': 'Page'}, {'Element': 'Username: Admin', 'Type': 'Text', 'Section': 'Page'}, {'Element': 'Password: admin123', 'Type': 'Text', 'Section': 'Page'}, {'Element': 'Username', 'Type': 'label', 'Section': 'Page'}, {'Element': 'Username', 'Type': 'Input', 'Section': 'Page'}, {'Element': 'Password', 'Type': 'label', 'Section': 'Page'}, {'Element': 'Password', 'Type': 'Input', 'Section': 'Page'}, {'Element': 'Login', 'Type': 'Button', 'Section': 'Page'}, {'Element': 'Forgot your password?', 'Type': 'Link', 'Section': 'Page'}]}, {'Page': 'Dashboard', 'Objective': 'to manage application features', 'Elements': [{'Element': 'search', 'Type': 'Input', 'Section': 'Sidebar'}, {'Element': 'collapse', 'Type': 'Icon', 'Section': 'Sidebar'}, {'Element': 'Admin', 'Type': 'Link', 'Section': 'Sidebar'}, {'Element': 'PIM', 'Type': 'Link', 'Section': 'Sidebar'}, {'Element': 'Leave', 'Type': 'Link', 'Section': 'Sidebar'}, {'Element': 'Time', 'Type': 'Link', 'Section': 'Sidebar'}, {'Element': 'Recruitment', 'Type': 'Link', 'Section': 'Sidebar'}, {'Element': 'Dashboard', 'Type': 'Link', 'Section': 'Sidebar'}, {'Element': 'Configure', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'Manage Reviews', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'Employee name', 'Type': 'Input', 'Section': 'Page'}, {'Element': 'Job Title', 'Type': 'Dropdown', 'Section': 'Page'}]}, {'Page': 'Leave', 'Objective': 'To View the Leave records based on the below options.', 'Elements': [{'Element': 'From Date', 'Type': 'Date Picker', 'Section': 'Page'}, {'Element': 'To Date', 'Type': 'Date Picker', 'Section': 'Page'}, {'Element': 'View', 'Type': 'Button', 'Section': 'Page'}]}, {'Page': 'Apply Leave', 'Objective': 'To Apply for a leave on a specific date using the below mentioned elements.', 'Elements': [{'Element': 'From Date', 'Type': 'Date Picker', 'Section': 'Page'}, {'Element': 'To Date', 'Type': 'Date Picker', 'Section': 'Page'}, {'Element': 'Leave Type', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'Comments', 'Type': 'Input', 'Section': 'Page'}, {'Element': 'Apply', 'Type': 'Button', 'Section': 'Page'}]}, {'Page': 'Time', 'Objective': 'to manage time tracking features', 'Elements': [{'Element': 'TimeSheets', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'My TimeSheets', 'Type': 'TimeSheets dropdown option', 'Section': 'Page'}, {'Element': 'Employee TimeSheets', 'Type': 'TimeSheets dropdown option', 'Section': 'Page'}, {'Element': 'Attendance', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'My Records', 'Type': 'Attendance dropdown option', 'Section': 'Page'}, {'Element': 'Punch In/Out', 'Type': 'Attendance dropdown option', 'Section': 'Page'}, {'Element': 'Employee Records', 'Type': 'Attendance dropdown option', 'Section': 'Page'}, {'Element': 'Configuration', 'Type': 'Attendance dropdown option', 'Section': 'Page'}, {'Element': 'Select Employee Section', 'Type': 'Page', 'Section': 'Page'}, {'Element': 'Employee name', 'Type': 'Input', 'Section': 'Page'}, {'Element': 'View', 'Type': 'Input', 'Section': 'Page'}]}, {'Page': 'PunchIN', 'Objective': 'In order to Punch in for an employee for a respective day.', 'Elements': [{'Element': 'Punch In', 'Type': 'Label', 'Section': 'Page'}, {'Element': 'Date', 'Type': 'DatePicker', 'Section': 'Page'}, {'Element': 'Time', 'Type': 'timePicker', 'Section': 'Page'}, {'Element': 'Note', 'Type': 'Input', 'Section': 'Page'}, {'Element': 'In', 'Type': 'Button', 'Section': 'Page'}, {'Element': 'Reports', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'Project Reports', 'Type': 'Reports dropdown option', 'Section': 'Page'}, {'Element': 'Employee Reports', 'Type': 'Reports dropdown option', 'Section': 'Page'}, {'Element': 'Attendance Summary', 'Type': 'Reports dropdown option', 'Section': 'Page'}, {'Element': 'Project info', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'Customers', 'Type': 'Project info dropdown option', 'Section': 'Page'}, {'Element': 'Projects', 'Type': 'Project info dropdown option', 'Section': 'Page'}, {'Element': 'Reports', 'Type': 'Dropdown', 'Section': 'Page'}, {'Element': 'Project Reports', 'Type': 'Reports info dropdown option', 'Section': 'Page'}, {'Element': 'Employee Reports', 'Type': 'Reports info dropdown option', 'Section': 'Page'}, {'Element': 'Attendance Summary', 'Type': 'Reports info dropdown option', 'Section': 'Page'}]}]}
+
+Following are the user interaction:
+user_instructions : What are the steps to Apply for leave on 15th Oct, 2024 ??

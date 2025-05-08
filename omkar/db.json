@@ -1,0 +1,320 @@
+{
+  "Pages": [
+    {
+      "Page": "Login",
+      "Objective": "to login into the application",
+      "Elements": [
+        {
+          "Element": "HRFORALL",
+          "Type": "Logo",
+          "Section": "Page"
+        },
+        {
+          "Element": "Username: Admin",
+          "Type": "Text",
+          "Section": "Page"
+        },
+        {
+          "Element": "Password: admin123",
+          "Type": "Text",
+          "Section": "Page"
+        },
+        {
+          "Element": "Username",
+          "Type": "label",
+          "Section": "Page"
+        },
+        {
+          "Element": "Username",
+          "Type": "Input",
+          "Section": "Page"
+        },
+        {
+          "Element": "Password",
+          "Type": "label",
+          "Section": "Page"
+        },
+        {
+          "Element": "Password",
+          "Type": "Input",
+          "Section": "Page"
+        },
+        {
+          "Element": "Login",
+          "Type": "Button",
+          "Section": "Page"
+        },
+        {
+          "Element": "Forgot your password?",
+          "Type": "Link",
+          "Section": "Page"
+        }
+      ]
+    },
+    {
+      "Page": "Dashboard",
+      "Objective": "to manage application features",
+      "Elements": [
+        {
+          "Element": "search",
+          "Type": "Input",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "collapse",
+          "Type": "Icon",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "Admin",
+          "Type": "Link",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "PIM",
+          "Type": "Link",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "Leave",
+          "Type": "Link",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "Time",
+          "Type": "Link",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "Recruitment",
+          "Type": "Link",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "Dashboard",
+          "Type": "Link",
+          "Section": "Sidebar"
+        },
+        {
+          "Element": "Configure",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "Manage Reviews",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "Employee name",
+          "Type": "Input",
+          "Section": "Page"
+        },
+        {
+          "Element": "Job Title",
+          "Type": "Dropdown",
+          "Section": "Page"
+        }
+      ]
+    },
+    {
+      "Page": "Leave",
+      "Objective": "To View the Leave records based on the below options.",
+      "Elements": [
+        {
+          "Element": "From Date",
+          "Type": "Date Picker",
+          "Section": "Page"
+        },
+        {
+          "Element": "To Date",
+          "Type": "Date Picker",
+          "Section": "Page"
+        },
+        {
+          "Element": "View",
+          "Type": "Button",
+          "Section": "Page"
+        }
+      ]
+    },
+    {
+      "Page": "Apply Leave",
+      "Objective": "To Apply for a leave on a specific date using the below mentioned elements.",
+      "Elements": [
+        {
+          "Element": "From Date",
+          "Type": "Date Picker",
+          "Section": "Page"
+        },
+        {
+          "Element": "To Date",
+          "Type": "Date Picker",
+          "Section": "Page"
+        },
+        {
+          "Element": "Leave Type",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "Comments",
+          "Type": "Input",
+          "Section": "Page"
+        },
+        {
+          "Element": "Apply",
+          "Type": "Button",
+          "Section": "Page"
+        }
+      ]
+    },
+    {
+      "Page": "Time",
+      "Objective": "to manage time tracking features",
+      "Elements": [
+        {
+          "Element": "TimeSheets",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "My TimeSheets",
+          "Type": "TimeSheets dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Employee TimeSheets",
+          "Type": "TimeSheets dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Attendance",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "My Records",
+          "Type": "Attendance dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Punch In/Out",
+          "Type": "Attendance dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Employee Records",
+          "Type": "Attendance dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Configuration",
+          "Type": "Attendance dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Select Employee Section",
+          "Type": "Page",
+          "Section": "Page"
+        },
+        {
+          "Element": "Employee name",
+          "Type": "Input",
+          "Section": "Page"
+        },
+        {
+          "Element": "View",
+          "Type": "Input",
+          "Section": "Page"
+        }
+      ]
+    },
+    {
+      "Page": "PunchIN",
+      "Objective": "In order to Punch in for an employee for a respective day.",
+      "Elements": [
+        {
+          "Element": "Punch In",
+          "Type": "Label",
+          "Section": "Page"
+        },
+        {
+          "Element": "Date",
+          "Type": "DatePicker",
+          "Section": "Page"
+        },
+        {
+          "Element": "Time",
+          "Type": "timePicker",
+          "Section": "Page"
+        },
+        {
+          "Element": "Note",
+          "Type": "Input",
+          "Section": "Page"
+        },
+        {
+          "Element": "In",
+          "Type": "Button",
+          "Section": "Page"
+        },
+        {
+          "Element": "Reports",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "Project Reports",
+          "Type": "Reports dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Employee Reports",
+          "Type": "Reports dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Attendance Summary",
+          "Type": "Reports dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Project info",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "Customers",
+          "Type": "Project info dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Projects",
+          "Type": "Project info dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Reports",
+          "Type": "Dropdown",
+          "Section": "Page"
+        },
+        {
+          "Element": "Project Reports",
+          "Type": "Reports info dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Employee Reports",
+          "Type": "Reports info dropdown option",
+          "Section": "Page"
+        },
+        {
+          "Element": "Attendance Summary",
+          "Type": "Reports info dropdown option",
+          "Section": "Page"
+        }
+      ]
+    }
+  ]
+}
