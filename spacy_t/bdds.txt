@@ -1,0 +1,5 @@
+[Launch Application,Login into Website,Navigate to Leave option,Select Reports Option, Click on Dropdown,Select My Leave Entitlements & usage Report,Select Leave Period,Click on Generate Button,Close Browser]
+[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Leave Period,Select Start Month,Select Start Date,Enter End Date,Enter Current leave period,Click on save Button,Close Browser]
+[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Leave Type,Enter Name,Select Is Entitlement Situational?,Click on save Button,Close Browser]
+[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Work Week,Select Monday,Click on dropdown,Select Full Day,Repeat upto Friday,Select Saturday and Sunday as Non-working day, Click on save Button,Close Browser]
+[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Holidays,Select Monday,Click on dropdown,Select Date 'From',Select Date 'To', Click on save Button,Close Browser]

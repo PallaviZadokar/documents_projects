@@ -1,0 +1,106 @@
+[
+
+    {
+    "id": "unique_id",
+    "image": "D:\\BDD\\ss_bdd\\Screenshot (5).png",
+    "conversations": [
+    {
+    "from": "human",
+    "query":"What Happens When We Select Reports Option from Leave Option and select My Leave Entitlements and usage Report,Select all fields from it & Click on Generate Button"
+
+    },
+    {
+    "from":"GPT",
+    "BDD":"[Launch Application,Login into Website,Navigate to Leave option,Select Reports Option, Click on Dropdown,Select My Leave Entitlements & usage Report,Select Leave Period,Click on Generate Button,Close Browser]"
+    }
+
+
+
+    ]
+    },
+    
+    {
+    "id": "unique_id",
+    "image": "D:\\BDD\\ss_bdd\\Screenshot (4).png",
+    "conversations": [
+    {
+    "from": "human",
+    "query":"What happens when we select configure option from Leave Option and select Leave Period option, Select all fields from it and then Click on Save Button "
+    
+    },
+    {
+    "from":"GPT",
+    "BDD":"[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Leave Period,Select Start Month,Select Start Date,Enter End Date,Enter Current leave period,Click on save Button,Close Browser]"
+    }
+    
+    
+    
+    ]
+    },
+    {
+    "id": "unique_id",
+    "image": "D:\\BDD\\ss_bdd\\Screenshot (6).png",
+    "conversations": [
+    {
+    "from": "human",
+    "query":"What happens when we click on Configure option from Leave option,Select Leave Types option,Select all fields from it and Click on Save Button"
+        
+    },
+    {
+    "from":"GPT",
+    "BDD":"[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Leave Type,Enter Name,Select Is Entitlement Situational?,Click on save Button,Close Browser]"
+    }
+        
+        
+        
+    ]
+    },
+
+    {
+    "id": "unique_id",
+    "image": "D:\\BDD\\ss_bdd\\Screenshot (7).png",
+    "conversations": [
+    {
+    "from": "human",
+    "query":"What happens when we click on Configure option from Leave option,Select Work Week option,Select all fields from it and Click on Save Button"
+            
+    },
+    {
+    "from":"GPT",
+    "BDD":"[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Work Week,Select Monday,Click on dropdown,Select Full Day,Repeat upto Friday,Select Saturday and Sunday as Non-working day, Click on save Button,Close Browser]"
+    }
+            
+            
+            
+    ]
+    },
+
+    {
+        "id": "unique_id",
+        "image": "D:\\BDD\\ss_bdd\\Screenshot (8).png",
+        "conversations": [
+        {
+        "from": "human",
+        "query":"What happens when we click on Configure option from Leave option,Select Holidays option,Select all fields from it and Click on Save Button"
+                
+        },
+        {
+        "from":"GPT",
+        "BDD":"[Launch Application,Login into Website,Navigate to Leave option,Select Configure Option,Click on Dropdown,Select Holidays,Select Monday,Click on dropdown,Select Date 'From',Select Date 'To', Click on save Button,Close Browser]"
+        }
+
+
+
+    ]
+    }
+]
+
+
+        
+    
+    
+    
+        
+    
+        
+    

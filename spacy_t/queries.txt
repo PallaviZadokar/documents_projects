@@ -1,0 +1,5 @@
+What Happens When We Select Reports Option from Leave Option and select My Leave Entitlements and usage Report,Select all fields from it & Click on Generate Button
+What happens when we select configure option from Leave Option and select Leave Period option, Select all fields from it and then Click on Save Button 
+What happens when we click on Configure option from Leave option,Select Leave Types option,Select all fields from it and Click on Save Button
+What happens when we click on Configure option from Leave option,Select Work Week option,Select all fields from it and Click on Save Button
+What happens when we click on Configure option from Leave option,Select Holidays option,Select all fields from it and Click on Save Button
