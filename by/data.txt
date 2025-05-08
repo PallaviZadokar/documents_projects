@@ -1,0 +1,63 @@
+This document contains data from a website, including the actions the user wants to perform and the steps needed to execute those actions.
+
+
+Login
+click on ADD TO CART button from Sauce Labs Bagpack card
+click on ADD TO CART button from Sauce Labs Bolt-T-Shirt card
+click on ADD TO CART button from Sauce Labs Onesie card
+click on ADD TO CART button from Sauce Labs Bike Light card
+click on ADD TO CART button from Sauce Labs Fleece Jacket card
+click on ADD TO CART button from Test.allTheThings() T-Shirt(Red) card
+click on dropdown and select Name(A to Z) text
+click on dropdown and select Name(Z to A) text
+click on dropdown and select Price(low to high) text
+click on dropdown and select Price(high to low) text
+click on Remove button from Sauce Labs Bagpack card
+click on Remove button from Sauce Labs Bolt-T-Shirt card
+click on Remove button from Sauce Labs Onesie Card
+click on Remove button from Sauce Labs Bike Light card
+click on Remove button from Sauce Labs Fleece Jacket card
+click on Remove button from Test.allTheThings() T-Shirt(Red) card
+click on ADD TO CART icon
+click on NAVBAR icon
+click on CANCEL icon
+click on NAVBAR icon and select All Items text
+click on NAVBAR icon and select About text
+click on NAVBAR icon and select Logout text
+click on NAVBAR icon and select Reset App State text
+click on CONTINUE SHOPPING button
+click on CHECKOUT button
+click on CANCEL button
+click on CONTINUE button
+click on FINISH button
+
+[Launch Application, Login into Website, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Bagpack card, Click on ADD TO CART button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Bolt-T-Shirt card, Click on ADD TO CART button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Onesie card, Click on ADD TO CART button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Bike Light card, Click on ADD TO CART button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Fleece Jacket card, Click on ADD TO CART button, Close Browser]
+[Launch Application, Login into Website, Navigate to Test.allTheThings() T-Shirt(Red) card, Click on ADD TO CART button, Close Browser]
+[Launch Application, Login into Website, Click on dropdown, Select Name(A to Z) text, Close Browser]
+[Launch Application, Login into Website, Click on dropdown, Select Name(Z to A) text, Close Browser]
+[Launch Application, Login into Website, Click on dropdown, Select Price(low to high) text, Close Browser]
+[Launch Application, Login into Website, Click on dropdown, Select Price(high to low) text, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Bagpack card, Click on Remove button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Bolt-T-Shirt card, Click on Remove button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Onesie Card, Click on Remove button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Bike Light card, Click on Remove button, Close Browser]
+[Launch Application, Login into Website, Navigate to Sauce Labs Fleece Jacket card, Click on Remove button, Close Browser]
+[Launch Application, Login into Website, Navigate to Test.allTheThings() T-Shirt(Red) card, Click on Remove button, Close Browser]
+[Launch Application, Login into Website, Click on ADD TO CART icon, Close Browser]
+[Launch Application, Login into Website, Click on NAVBAR icon, Close Browser]
+[Launch Application, Login into Website, Click on CANCEL icon, Close Browser]
+[Launch Application, Login into Website, Click on NAVBAR icon, Select All Items text, Close Browser]
+[Launch Application, Login into Website, Click on NAVBAR icon, Select About text, Close Browser]
+[Launch Application, Login into Website, Click on NAVBAR icon, Select Logout text, Close Browser]
+[Launch Application, Login into Website, Click on NAVBAR icon, Select Reset App State text, Close Browser]
+[Launch Application, Login into Website, Click on ADD TO CART icon, Click on CONTINUE SHOPPING button, Close Browser]
+[Launch Application, Login into Website, Click on ADD TO CART icon, Click on CHECKOUT button, Close Browser]
+[Launch Application, Login into Website, Click on ADD TO CART icon, Click on CHECKOUT button, Enter First Name, Enter Last, Enter Zip/Postal Code, Click on CANCEL button, Close Browser]
+[Launch Application, Login into Website, Click on ADD TO CART icon, Click on CHECKOUT button, Enter First Name, Enter Last, Enter Zip/Postal Code, Click on CONTINUE button, Close Browser]
+[Launch Application, Login into Website, Click on ADD TO CART icon, Click on CHECKOUT button, Enter First Name, Enter Last, Enter Zip/Postal Code, Click on CONTINUE button, Click on FINISH button, Close Browser]
+

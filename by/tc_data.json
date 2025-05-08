@@ -1,0 +1,193 @@
+[
+    {
+        "description": "Valid User Creation",
+        "payload": {
+            "username": "Abc",
+            "password": "Abc@123",
+            "email": "abc@example.com",
+            "phone": "9234567890"
+        }
+    },
+    {
+        "description": "Invalid Username",
+        "payload": {
+            "username": "",
+            "password": "efg@123",
+            "email": "efg@example.com",
+            "phone": "9934567890"
+        }
+    },
+    {
+        "description": "Invalid Password Format",
+        "payload": {
+            "username": "User1",
+            "password": "123",
+            "email": "user@example.com",
+            "phone": "9234567890"
+        }
+    },
+    {
+        "description": "Duplicate Username",
+        "payload": {
+            "username": "Abc",
+            "password": "xyz@345",
+            "email": "anotheruser@example.com",
+            "phone": "9876543210"
+        }
+    },
+    {
+        "description": "Valid User Update",
+        "payload": {
+            "username": "pqrstu",
+            "password": "NewPass@123",
+            "email": "updateduser@example.com",
+            "phone": "9876543210"
+        }
+    },
+    {
+        "description": "User Not Found for Update",
+        "payload": {
+            "username": "new User",
+            "password": "Valid@123",
+            "email": "ebv23@example.com",
+            "phone": "9754567890"
+        }
+    },
+    {
+        "description": "Invalid Email Format",
+        "payload": {
+            "username": "UserWithInvalidEmail",
+            "password": "Valid@123",
+            "email": "133.abc.com",
+            "phone": "8834567890"
+        }
+    },
+    {
+        "description": "Missing Required Fields",
+        "payload": {
+            "password": "user@123",
+            "email": "user12@example.com"
+        }
+    },
+    {
+        "description": "Valid Get User by ID",
+        "payload": {
+            "id": "1"
+        }
+    },
+    {
+        "description": "User Not Found for Get",
+        "payload": {
+            "id": "99"
+        }
+    },
+    {
+        "description": "Valid User Deletion",
+        "payload": {
+            "id": "1"
+        }
+    },
+    {
+        "description": "User Not Found for Deletion",
+        "payload": {
+            "id": "99"
+        }
+    },
+    {
+        "description": "Valid Phone Number Format",
+        "payload": {
+            "username": "qrst",
+            "password": "tsrq@123",
+            "email": "tsrq122@example.com",
+            "phone": "123-456-7890"
+        }
+    },
+    {
+        "description": "Phone Number Too Short",
+        "payload": {
+            "username": "qrst",
+            "password": "tsrq@123",
+            "email": "tsrq122@example.com",
+            "phone": "12345"
+        }
+    },
+    {
+        "description": "Special Characters in Username",
+        "payload": {
+            "username": "User@123",
+            "password": "user@123",
+            "email": "user@example.com",
+            "phone": "7234567890"
+        }
+    },
+    {
+        "description": "Valid User Creation with All Fields",
+        "payload": {
+            "username": "firstUser",
+            "password": "first@123",
+            "email": "firstuser@example.com",
+            "phone": "8234567890"
+        }
+    },
+    {
+        "description": "Update with Missing Fields",
+        "payload": {
+            "username": "xzw",
+            "email": "newxzw@example.com"
+        }
+    },
+    {
+        "description": "Valid User Creation with Different Valid Email",
+        "payload": {
+            "username": "first1User",
+            "password": "first1@123",
+            "email": "first1@example.com",
+            "phone": "8345678901"
+        }
+    },
+    {
+        "description": "Get All Users",
+        "payload": {}
+    },
+    {
+        "description": "Valid Phone Update",
+        "payload": {
+            "phone": "7756789012"
+        }
+    },
+    {
+        "description": "Invalid Phone Number Format",
+        "payload": {
+            "phone": "987asdmju9"
+        }
+    },
+    {
+        "description": "Update Email with Existing Email",
+        "payload": {
+            "email": "newuser@example.com"
+        }
+    },
+    {
+        "description": "Valid User Creation with Extra Fields",
+        "payload": {
+            "username": "abcdf",
+            "password": "abcdf@123",
+            "email": "extra@gmail.com",
+            "phone": "6567890123",
+            "addresss": "pune"
+        }
+    },
+    {
+        "description": "Get User by Non-Numeric ID",
+        "payload": {
+            "id": "abc"
+        }
+    },
+    {
+        "description": "Valid Update without Changing Fields",
+        "payload": {
+            "username": "User1",
+            "email": "user@example.com"
+        }
+    }
+]
